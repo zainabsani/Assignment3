@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>trade</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section>
+		<div class="container">
+			<div class="user signupBx">
+				<div class="formBx">
+					<form>
+					<img src="https://linkinvest.pro/public/logo/5fabede84ca91-2611-Asset 28white background - link invest.png" alt="" width="250px" style="margin-bottom: 15px;">
+
+						<input type="text" name="" placeholder="Your name" style="font-size: 13px;">
+						<input type="text" name="" placeholder="Your e-mail address" style="font-size: 13px;">
+						<input type="text" name="" placeholder="Your phone number" style="font-size: 10px;">
+						<input type="password" name="" placeholder="Your password" style="font-size: 13px;">
+						<input type="password" name="" placeholder="Repeat your password" style="font-size: 13px;">
+ 						<p style="text-decoration: none;color: black;cursor: pointer;font-size: 16px;position: relative;margin-top: 20px;">I agree to the <a href="" style="color: #4786ff; font-size: 16px;">terms of service</a></p>
+						<a href="index.html" style="cursor: pointer; margin-right: 27px;">Back to login</a>
+						<input type="submit" name="" value="LET'S GO"> 
+					</form>
+				</div>
+
+				<div class="slideshow-container">
+					<div class="mySlides fade">
+  						<img src="https://linkinvest.pro/assets/img/login/overview/1.jpg" style="width:100%; height: 500px;opacity: 0.7;">
+					</div>
+
+					<div class="mySlides fade">
+	  					<img src="https://linkinvest.pro/assets/img/login/overview/2.jpg" style="width:100%; height: 500px;opacity: 0.7;">
+					</div>
+
+					<div class="mySlides fade">
+	  					<img src="https://linkinvest.pro/assets/img/login/overview/3.jpg" style="width:100%; height: 500px;opacity: 0.7;">
+					</div>
+
+					<div style="text-align:left">
+				  		<span class="dot"></span> 
+				  		<span class="dot"></span> 
+				  		<span class="dot"></span> 
+					</div>
+				</div>
+
+				<script>
+					var slideIndex = 0;
+					showSlides();
+
+					function showSlides() {
+					  var i;
+					  var slides = document.getElementsByClassName("mySlides");
+					  var dots = document.getElementsByClassName("dot");
+					  for (i = 0; i < slides.length; i++) {
+					    slides[i].style.display = "none";  
+					  }
+					  slideIndex++;
+					  if (slideIndex > slides.length) {slideIndex = 1}    
+					  for (i = 0; i < dots.length; i++) {
+					    dots[i].className = dots[i].className.replace(" active", "");
+					  }
+					  slides[slideIndex-1].style.display = "block";  
+					  dots[slideIndex-1].className += " active";
+					  setTimeout(showSlides, 4000); // Change image every 2 seconds
+					}
+				</script>
+
+			</div>
+
+			<div>
+				
+			</div>
+		</div>
+
+<!-- 		<footer>
+			<div class="kr_lang_select">
+				<div>
+					<div><img src="https://linkinvest.pro/assets/img/icons/languages/en.svg"></div>
+					<span>English</span>
+				</div>
+				<ul style="display: block;">
+					<li><a href="?lng=ar"><div><img src="https://linkinvest.pro/assets/img/icons/languages/ar.svg"></div><span>Arabic</span></a></li>
+					<li><a href="?lng=bn"><div><img src="https://linkinvest.pro/assets/img/icons/languages/bn.svg"></div><span>Bengali</span></a></li>
+					<li><a href="?lng=cn"><div><img src="https://linkinvest.pro/assets/img/icons/languages/cn.svg"></div><span>Chinese</span></a></li>
+					<li><a href="?lng=cs"><div><img src="https://linkinvest.pro/assets/img/icons/languages/cs.svg"></div><span>Czech</span></a></li>
+					<li><a href="?lng=de"><div><img src="https://linkinvest.pro/assets/img/icons/languages/de.svg"></div><span>German</span></a></li>
+					<li><a href="?lng=es"><div><img src="https://linkinvest.pro/assets/img/icons/languages/es.svg"></div><span>Spanish</span></a></li>
+					<li><a href="?lng=et"><div><img src="https://linkinvest.pro/assets/img/icons/languages/et.svg"></div><span>Estonian</span></a></li>
+					<li><a href="?lng=hi"><div><img src="https://linkinvest.pro/assets/img/icons/languages/hi.svg"></div><span>Hindi</span></a></li>
+					<li><a href="?lng=hr"><div><img src="https://linkinvest.pro/assets/img/icons/languages/hr.svg"></div><span>Croatian</span></a></li>
+					<li><a href="?lng=hy"><div><img src="https://linkinvest.pro/assets/img/icons/languages/hy.svg"></div><span>Armenian</span></a></li>
+					<li><a href="?lng=it"><div><img src="https://linkinvest.pro/assets/img/icons/languages/it.svg"></div><span>Italian</span></a></li>
+					<li><a href="?lng=ja"><div><img src="https://linkinvest.pro/assets/img/icons/languages/ja.svg"></div><span>Japanese</span></a></li>
+					<li><a href="?lng=lt"><div><img src="https://linkinvest.pro/assets/img/icons/languages/lt.svg"></div><span>Lithuanian</span></a></li>
+					<li><a href="?lng=lv"><div><img src="https://linkinvest.pro/assets/img/icons/languages/lv.svg"></div><span>Latvian</span></a></li>
+					<li><a href="?lng=pl"><div><img src="https://linkinvest.pro/assets/img/icons/languages/pl.svg"></div><span>Polish</span></a></li>
+					<li><a href="?lng=pt"><div><img src="https://linkinvest.pro/assets/img/icons/languages/pt.svg"></div><span>Portugese</span></a></li>
+					<li><a href="?lng=rom"><div><img src="https://linkinvest.pro/assets/img/icons/languages/rom.svg"></div><span>Romani</span></a></li>
+					<li><a href="?lng=ru"><div><img src="https://linkinvest.pro/assets/img/icons/languages/ru.svg"></div><span>Russian</span></a></li>
+					<li><a href="?lng=tr"><div><img src="https://linkinvest.pro/assets/img/icons/languages/tr.svg"></div><span>Turkish</span></a></li>
+					<li><a href="?lng=vi"><div><img src="https://linkinvest.pro/assets/img/icons/languages/vi.svg"></div><span>Vietnamese</span></a></li>
+					<li><a href="?lng=zh-CN"><div><img src="https://linkinvest.pro/assets/img/icons/languages/zh-CN.svg"></div><span>Chinese Simpified</span></a></li>
+				</ul>
+			</div>
+		</footer> -->
+		<div>
+			<div class="container1">
+			<a href="#">English</a>
+			<a href="#" style="margin-left: 500px; color: #4786ff; text-transform: uppercase; font-size: 13px; text-decoration: none; cursor: pointer; font-family: Trebuchet MS,Tahoma,Arial,sans-serif;">TERMS OF SERVICE</a>
+			<a href="#" style="margin-left: 30px; color: #4786ff; text-transform: uppercase; font-size: 13px; text-decoration: none; cursor: pointer; font-family: Trebuchet MS,Tahoma,Arial,sans-serif;">PRIVACY POLICY</a>
+		</div>
+		
+	</div>
+	</section>
+
+</body>
+</html>

@@ -1,0 +1,227 @@
+@import url('')
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Trebuchet MS,Tahoma,Arial,sans-serif;
+}
+
+::placeholder{
+	color: black;
+	font-family: Trebuchet MS,Tahoma,Arial,sans-serif;
+}
+body{
+	background: #f5f7fa;
+	background-image: url("https://linkinvest.pro/assets/img/login/circle.svg");
+	background-repeat: no-repeat;
+	height: 100%;
+	display: flex;
+	background-position: calc(70% - 500px) center;
+	align-items: center;
+	background-size: 700px auto;
+	flex-direction: column;
+	justify-content: center;
+	font-family: Trebuchet MS,Tahoma,Arial,sans-serif;
+}
+/*f5f7fa*/
+section{
+	position: relative;
+	min-height: 100vh;
+	background: #f5f7fa;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+/*	padding: 10px;
+*/}
+
+section .container{
+	position: fixed;
+	margin-left: 250px;
+	width: 800px;
+	height: 500px;
+	background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+	box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	left: 0;
+	overflow: hidden;
+
+}
+
+section .container1{
+	position: fixed;
+	margin-left: 250px;
+	margin-top: 255px;
+	width: 800px;
+	height: 30px;
+	left: 0;
+	overflow: hidden;
+}
+
+section .container .user{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+section .container .user .imgBx{
+	position: relative;
+	width: 100%;
+	height:100%;
+	background: #ff0;
+	transition: 0.5s;
+}
+
+section .container .user .imgBx img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+	width: 100%
+	height:100%;
+	object-fit: cover;
+}
+
+section .container .user .formBx{
+	background: #fff;
+	align-items: top;
+	height: 100%;
+	width: 45%;
+	padding: 40px;
+	transition: 0.5s;
+	display: flex;
+	position: relative;
+	align-items: top;
+	justify-content: top;
+}
+
+section .container .user .formBx form img{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+
+section .container .user .formBx form input{
+	position: relative;
+	width: 95%;
+	padding: 15px;
+	background: white;
+	color: black;
+	border: all;
+	outline: none;
+	box-shadow: none;
+}
+
+section .container .user .formBx form input{
+	position: relative;
+	width: 95%;
+	background: white;
+	color: black;
+	border: all;
+	outline: none;
+	box-shadow: none;
+	margin: 0px 0;
+	font-size: 14px;
+	font-weight: 100;
+}
+
+section .container .user .formBx form input[type="submit"]{
+	color: white;
+	background: #4786ff;
+  	font-weight: 700;
+  	font-size: 13px;
+  	margin: 8px 0;
+  	padding: 16px 20px;
+  	border: none;
+  	cursor: pointer;
+  	opacity: 0.9;
+  	box-shadow: 0px 5px 15px 0px #00000026;
+  	border-radius: 5px;
+  	justify-content: center;
+  	width: 100px;
+}
+
+section .container .user .formBx form input[type="submit"]:hover{
+	background: #FF851B;
+}
+
+section .container .user .formBx form input[type="sbt"]{
+	color: white;
+	background: #111111;
+  	font-weight: 400;
+  	font-size: 13px;
+  	margin: 40px 0;
+  	padding: 16px 20px;
+  	border: none;
+  	cursor: pointer;
+  	box-shadow: 0px 5px 15px 0px #00000026;
+  	border-radius: 3px;
+  	width: 170px;
+}
+
+section .container .user .formBx form button{
+	color: white;
+	background: #111111;
+  	font-weight: 200;
+  	font-size: 9px;
+  	padding: 16px 20px;
+  	border: none;
+  	cursor: pointer;
+  	box-shadow: 0px 5px 15px 0px #00000026;
+  	border-radius: 3px;
+}
+
+section .container .user .formBx form a{
+	text-decoration: none;
+	color: #979ea3;
+	cursor: pointer;
+	font-size: 15px;
+	position: relative;
+	margin-top: 20px;
+}
+
+section .container .user .formBx form a:hover{
+	text-decoration: none;
+	color: gray;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  	position: relative;
+	width: 100%;
+	height:100%;
+}
+.dot {
+  height: 5px;
+  width: 20px;
+  margin: 0 2px;
+  background-color: black;
+  border-radius: 100%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: blue;
+  height: 10px;
+  width: 30px;
+}
+
+footer{
+	width: 800px;
+	max-width: 100%;
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+/*section .container .signupBx .formBx{
+	left: 100%;
+}
+
+section .container .signupBx .imgBx{
+	left: -100%;
+}
+*/
+
